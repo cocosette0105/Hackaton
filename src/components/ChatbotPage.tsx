@@ -22,9 +22,9 @@ interface ChatbotPageProps {
 }
 
 export default function ChatbotPage({ onClose }: ChatbotPageProps) {
-  const USER_NAME = 'VeruPérez';
+  const USER_NAME = 'Veruzka Alvarez';
   const USER_ID = '1009342';
-  const WEBHOOK_URL = 'https://cocosette.app.n8n.cloud/webhook/910ee45e-2165-4b9a-be82-176d92f8aacb';
+  const WEBHOOK_URL = 'https://josueca.app.n8n.cloud/webhook/910ee45e-2165-4b9a-be82-176d92f8aacb';
   const [messages, setMessages] = useState<Message[]>([
     {
       id: '1',
@@ -181,13 +181,11 @@ export default function ChatbotPage({ onClose }: ChatbotPageProps) {
                   src={bncLogo}
                   alt="BNC Logo"
                   className="w-12 h-12 object-cover rounded"
-                />
+                />         
               <div>
-                <h1 className="text-3xl font-black text-orange-300 tracking-tight">Asistente Virtual</h1>
-                {/* <p className="text-orange-300 text-sm font-bold">Asistente Virtual</p> */}
-              </div>
-            </div>
-
+                <h1 className="text-3x1 font-black text-white tracking-tight">Banco Nacional de Crédito</h1>
+              </div>     
+            </div>      
             <div className="flex items-center space-x-4 relative">
               <button
                 onClick={() => setIsUserMenuOpen(!isUserMenuOpen)}
